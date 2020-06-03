@@ -157,6 +157,7 @@ class _MultiDateRangePickerState extends State<MultiDateRangePicker> {
   }
 
   void click(Day day) {
+    print(1);
     if (deleteConfirm) {
       if (day.date == deleteDay.date) {
         setState(() {
